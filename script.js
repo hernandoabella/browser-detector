@@ -1,7 +1,14 @@
-function detectarNavegador() {
+/**
+ * detectarNavegador() - detecta el navegador actual y muestra el nombre en un elemento HTML
+ *
+ */
+const detectarNavegador = () => {
+    // Obtiene el agente de usuario del navegador en minúsculas
     let agente = navigator.userAgent.toLowerCase();
-    let navegador = "otro"; // asumimos que es otro navegador
+    // Asume que el navegador es "otro"
+    let navegador = "otro";
 
+    // Verifica si el agente de usuario contiene subcadenas específicas
     if (agente.indexOf("edge") > -1) {
         navegador = "edge";
     } else if (agente.indexOf("edg/") > -1) {
@@ -18,13 +25,16 @@ function detectarNavegador() {
         navegador = "safari";
     }
 
+    // Convierte la primera letra del nombre del navegador a mayúsculas
     document.querySelector('.navegador').innerHTML = navegador[0].toUpperCase() + navegador.slice(1);
 
+    // Selecciona el logo correspondiente al navegador
     const logo = document.querySelector(`.logos .${navegador}`);
 
+    // Muestra el logo
     if(logo !== ""){  
         logo.style.opacity = "1";
     }
 }
-
+// Invoca la función detectarNavegador()
 detectarNavegador();
