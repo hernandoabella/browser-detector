@@ -17,21 +17,30 @@ body{
     align-items: center;  
     border-radius: 10px;  
     justify-content: center;  
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
+    width: 330px;
 }  
 
 .container h2{  
     color: #030303;  
     margin-bottom: 20px;
-}  
+}
+
+.container p {
+    margin-top: 20px;
+}
 
 .container .logos{  
     display: flex;
-}  
+}
+
+.navegador {
+    font-weight: bold;
+}
 
 .logos img{  
     opacity: 0.3;  
