@@ -1,6 +1,6 @@
 # Detectar Navegador 🌐
 
-[Demo](https://hernandoabella.github.io/adivina-la-palabra/)
+[🔗Demo](https://hernandoabella.github.io/adivina-la-palabra/)
 
 Este programa para detectar el navegador es esencial para garantizar que un sitio web se vea y funcione correctamente en diferentes plataformas de navegación.
 
@@ -28,11 +28,21 @@ Este código es un programa para detectar el navegador que utiliza HTML, CSS y J
 ## Recursos para realizar este proyecto
 - Video Tutorial 📼: Para ver cómo se crea este proyecto puedes ver un video tutorial haciendo [clic aquí](https://www.youtube.com/watch?v=OMaVvompMGc).
 
+1. HTML: Es el lenguaje utilizado para estructurar el contenido de la página web.
+2. CSS: Es el lenguaje utilizado para dar estilo al contenido estructurado con HTML.
+3. JavaScript: Es el lenguaje de programación utilizado para escribir la lógica de detección de navegador.
+4. Archivo CSS externo: Es un archivo que se importa en el documento HTML para aplicar estilos a la página web.
+5. Imágenes: Es un recurso utilizado para mostrar los logos de los diferentes navegadores detectados.
+6. Google fonts: Es un recurso utilizado para importar una fuente externa en el documento HTML.
+7. El objeto navigator de JavaScript: Es un objeto proporcionado por el navegador que contiene información sobre el navegador y el sistema. En este caso se usa para obtener la información del navegador que está siendo utilizado.
+8.El objeto window de JavaScript: Es un objeto proporcionado por el navegador que representa la ventana del navegador y proporciona acceso a las características del navegador y del sistema.
+9. DOM (Document Object Model): Es una representación del documento HTML, permite acceder y modificar su contenido y estilos.
+
 ## Licencia 📄
 Este proyecto está bajo la Licencia (MIT) - mira el archivo LICENSE.md para más detalles.
 
-## Captura de pantalla
-![captura](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Captura de pantalla 📷
+![captura](https://raw.githubusercontent.com/hernandoabella/detectar-navegador/main/images/Detectar-Navegador-%F0%9F%8C%90.png)
 
 ## Expresiones de Gratitud 🎁
 - Comenta a otros sobre este proyecto 📢
