@@ -1,6 +1,6 @@
 # Detectar Navegador 🌐
 
-[🔗Demo](https://hernandoabella.github.io/adivina-la-palabra/)
+[🔗Demo](https://hernandoabella.github.io/detectar-navegador/)
 
 Este programa para detectar el navegador es esencial para garantizar que un sitio web se vea y funcione correctamente en diferentes plataformas de navegación.
 
