@@ -1,4 +1,4 @@
-# Detectar Navegador 🌐
+# browser-detector 🌐
 
 [🔗Demo](https://hernandoabella.github.io/detectar-navegador/)
 
